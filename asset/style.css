@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    /* max-width: 90%; */
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.logo{
+    font-size: 1.5em;
+    color: white;
+    max-width: 90%;
+    margin: auto;
+}
+
+.biopage{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.biodiv{
+    width: 50%;
+}
+
+.bioheading{
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.bio{
+    max-width: 50%;
+}
+
+.biocontent{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.button{}
+
+.spider{
+    width: 50%;
+}
+
+.spiderman{
+    background-image: url('./images/spiderman.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    min-height: 500px;
+    /* background-attachment: fixed; */
+}
+
+.features{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.works{
+    justify-content: center;
+    font-size: 3em;
+    /* font-weight: bold; */
+}
+
+.pet{
+    width: 10px;
+    height: 10px;
+}
+
+.plant{
+    width: 10px;
+    height: 10px;
+}
